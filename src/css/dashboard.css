@@ -1,0 +1,27 @@
+
+.dashboard-container{
+    display: flex;
+    
+}
+
+.sidebar-container{
+    
+    margin: 0%;
+    width: 200px;
+    height: 100vh;
+    background-color: darkslateblue;
+    text-align: start;
+
+    color: white;
+}
+
+
+.sidebar-container ul{
+    margin: 0%;
+}
+
+.sidebar-container li{
+
+    padding: 10px 0;
+
+}

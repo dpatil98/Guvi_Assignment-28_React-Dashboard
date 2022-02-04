@@ -1,0 +1,122 @@
+body{
+
+    background-color: rgb(240, 240, 240);
+
+}
+
+.gl-container{
+
+    
+    width: 100%;
+}
+
+.section-title h4{
+    
+    margin: 30px;
+    font-weight: 300;
+    text-align: start;
+}
+
+.cards-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+
+}
+
+.carda-body{
+
+    background-color: rgb(243, 243, 243);
+    border-left: 5px solid darkslateblue;
+    border-radius: 5px;
+
+    padding: 20px;
+    width: min(350px,90vw);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 100px; */
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.carda-body div:nth-child(1) {
+
+    text-align: start;
+    width: 85%;
+    
+}
+
+/* cars title eg Earnings Task */
+.carda-body p{
+
+    font-size: 12px;
+    font-weight: 700;
+    color: darkslateblue;
+    margin: 5px 0;
+}
+
+/* main content including progress bar and prices */
+.carda-body h3{
+
+    font-size: 1rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0%;
+}
+
+
+.charts-container{
+
+    margin-top:50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 50px;
+
+    flex-wrap: wrap;
+    background-color: rgb(237, 237, 237);
+}
+
+.chart-body{
+
+    background-color: rgb(243, 243, 243);
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 20px;
+    padding: 20px;
+
+    width: min(1000px , 80vw);
+}
+
+
+
+.chart-body-pie{
+    background-color: rgb(243, 243, 243);
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.chart-title{
+
+    
+    background-color: rgba(243, 243, 243, 0.611);
+    padding: 1px 10px;
+    border-radius: 20px 20px 0 0 ;
+    border-bottom: 2px solid darkslateblue;
+
+    letter-spacing: 1px;
+    text-align: start;
+    font-size: 14px;
+    color: darkslateblue;
+}
+
