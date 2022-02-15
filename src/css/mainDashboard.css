@@ -34,7 +34,7 @@ body{
     border-radius: 5px;
 
     padding: 20px;
-    width: min(350px,90vw);
+    width: min(350px,60vw);
 
     display: flex;
     justify-content: space-between;
@@ -94,6 +94,8 @@ body{
     padding: 20px;
 
     width: min(1000px , 80vw);
+    /* min-width: 1000px; */
+    overflow-x: auto;
 }
 
 
@@ -104,6 +106,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border-radius: 20px;
     padding: 20px;
+    width: min(400px , 80vw);
 }
 
 .chart-title{
